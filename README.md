@@ -1,6 +1,6 @@
 # Reproducibility Files
 
-### Uccheddu, D., & van Gaalen, R. (__2022__). *Children’s strains, parents’ pains? How adult children’s union dissolution influences older parents’ health*. Journal of Family Research. https://doi.org/10.20377/jfr-774 
+### Uccheddu, D., & van Gaalen, R. (__2022__). Children’s strains, parents’ pains? How adult children’s union dissolution influences older parents’ health. *Journal of Family Research*. https://doi.org/10.20377/jfr-774 
 
 
 
