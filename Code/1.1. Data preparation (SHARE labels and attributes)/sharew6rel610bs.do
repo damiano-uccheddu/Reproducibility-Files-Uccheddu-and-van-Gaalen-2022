@@ -1,0 +1,140 @@
+cap la de country 11 `"Austria"', modify
+cap la de country 12 `"Germany"', modify
+cap la de country 13 `"Sweden"', modify
+cap la de country 14 `"Netherlands"', modify
+cap la de country 15 `"Spain"', modify
+cap la de country 16 `"Italy"', modify
+cap la de country 17 `"France"', modify
+cap la de country 18 `"Denmark"', modify
+cap la de country 19 `"Greece"', modify
+cap la de country 20 `"Switzerland"', modify
+cap la de country 23 `"Belgium"', modify
+cap la de country 25 `"Israel"', modify
+cap la de country 28 `"Czech Republic"', modify
+cap la de country 29 `"Poland"', modify
+cap la de country 30 `"Ireland"', modify
+cap la de country 31 `"Luxembourg"', modify
+cap la de country 32 `"Hungary"', modify
+cap la de country 33 `"Portugal"', modify
+cap la de country 34 `"Slovenia"', modify
+cap la de country 35 `"Estonia"', modify
+cap la de country 47 `"Croatia"', modify
+cap la de country 48 `"Lithuania"', modify
+cap la de country 51 `"Bulgaria"', modify
+cap la de country 53 `"Cyprus"', modify
+cap la de country 55 `"Finnland"', modify
+cap la de country 57 `"Latvia"', modify
+cap la de country 59 `"Malta"', modify
+cap la de country 61 `"Romania"', modify
+cap la de country 63 `"Slovakia"', modify
+cap la de language 11 `"German (at)"', modify
+cap la de language 12 `"German (de)"', modify
+cap la de language 13 `"Swedish"', modify
+cap la de language 14 `"Dutch (nl)"', modify
+cap la de language 15 `"Spanish"', modify
+cap la de language 16 `"Italian (it)"', modify
+cap la de language 17 `"French (fr)"', modify
+cap la de language 18 `"Danish"', modify
+cap la de language 19 `"Greek"', modify
+cap la de language 20 `"German (ch)"', modify
+cap la de language 21 `"French (ch)"', modify
+cap la de language 22 `"Italian (ch)"', modify
+cap la de language 23 `"French (be)"', modify
+cap la de language 24 `"Flemish (be)"', modify
+cap la de language 25 `"Hebrew (il)"', modify
+cap la de language 26 `"Arabic (il)"', modify
+cap la de language 27 `"Russian (il)"', modify
+cap la de language 28 `"Czech"', modify
+cap la de language 29 `"Polish"', modify
+cap la de language 30 `"English (ie)"', modify
+cap la de language 31 `"Luxembourgian, French, German or Portuguese "', modify
+cap la de language 32 `"Hungarian"', modify
+cap la de language 33 `"Portuguese"', modify
+cap la de language 34 `"Slovenian"', modify
+cap la de language 35 `"Estonian or Russian (ee)"', modify
+cap la de language 36 `"Estonian (ee)"', modify
+cap la de language 37 `"Russian (ee)"', modify
+cap la de language 38 `"Spanish or Catalan (eg)"', modify
+cap la de language 39 `"Catalan (eg)"', modify
+cap la de language 40 `"Spanish (eg)"', modify
+cap la de language 41 `"French (lu)"', modify
+cap la de language 42 `"German (lu)"', modify
+cap la de language 43 `"Portuguese (lu)"', modify
+cap la de language 44 `"French or German (lu)"', modify
+cap la de language 45 `"French or German or Portuguese (lu)"', modify
+cap la de language 47 `"Croatian"', modify
+cap la de language 48 `"Lithuanian"', modify
+cap la de language 51 `"Bulgarian"', modify
+cap la de language 53 `"Greek (cy)"', modify
+cap la de language 55 `"Finnish"', modify
+cap la de language 56 `"Swedish (fi)"', modify
+cap la de language 57 `"Latvian"', modify
+cap la de language 58 `"Russian (lv)"', modify
+cap la de language 59 `"Maltese"', modify
+cap la de language 60 `"English (mt)"', modify
+cap la de language 61 `"Romanian"', modify
+cap la de language 63 `"Slovakian"', modify
+cap la de language 65 `"Catalan (es)"', modify
+cap la de bs006_ -2 `"Refusal"', modify
+cap la de bs006_ -1 `"Don't know"', modify
+cap la de bs006_ 1 `"Medical reasons mentioned"', modify
+cap la de bs006_ 5 `"No medical reasons mentioned"', modify
+cap la de bs002_ -2 `"Refusal"', modify
+cap la de bs002_ -1 `"Don't know"', modify
+cap la de bs002_ 1 `"Consent given"', modify
+cap la de bs002_ 5 `"NO consent given"', modify
+cap la de bs002_ 6 `"Consent withdrawn"', modify
+cap la de bs013_ -5 `"Not answered"', modify
+cap la de bs013_ -2 `"Refusal"', modify
+cap la de bs013_ -1 `"Don't know"', modify
+cap la de bs013_ 1 `"Self-pricking"', modify
+cap la de bs013_ 2 `"Interviewer"', modify
+cap la de bs013_ 3 `"Both"', modify
+cap la de bs013_ 4 `"Someone else"', modify
+cap la de bs014_ -5 `"Not answered"', modify
+cap la de bs014_ -2 `"Refusal"', modify
+cap la de bs014_ -1 `"Don't know"', modify
+cap la de nonproxy -2 `"Refusal"', modify
+cap la de nonproxy -1 `"Don't know"', modify
+cap la de nonproxy 1 `"Continue (Respondent)"', modify
+cap la de nonproxy 5 `"Proxy-interview"', modify
+cap recast str12 mergeid
+cap recast str11 hhid6
+cap recast str12 mergeidp6
+cap recast str15 coupleid6
+cap recast byte country
+cap recast byte language
+cap recast byte bs006_
+cap recast byte bs002_
+cap recast byte bs013_
+cap recast byte bs014_
+cap recast byte bs023_
+cap form mergeid %12s
+cap form hhid6 %11s
+cap form mergeidp6 %12s
+cap form coupleid6 %15s
+cap form country %14.0g
+cap form language %44.0g
+cap form bs006_ %28.0g
+cap form bs002_ %17.0g
+cap form bs013_ %13.0g
+cap form bs014_ %12.0g
+cap form bs023_ %21.0g
+cap la val country country
+cap la val language language
+cap la val bs006_ bs006_
+cap la val bs002_ bs002_
+cap la val bs013_ bs013_
+cap la val bs014_ bs014_
+cap la val bs023_ nonproxy
+cap la var mergeid `"Person identifier (fix across modules and waves)"'
+cap la var hhid6 `"Household identifier (wave 6)"'
+cap la var mergeidp6 `"Partner identifier (wave 6)"'
+cap la var coupleid6 `"Couple identifier (wave 6)"'
+cap la var country `"Country identifier"'
+cap la var language `"Language of questionnaire"'
+cap la var bs006_ `"Refusal due to medical reasons"'
+cap la var bs002_ `"Written consent for DBS collection"'
+cap la var bs013_ `"Who pricked respondent’s finger"'
+cap la var bs014_ `"Number of pricks"'
+cap la var bs023_ `"Intro non-proxy section"'
