@@ -1,5 +1,7 @@
 # Reproducibility Files
 
+# [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7443895.svg)](https://doi.org/10.5281/zenodo.7443895)
+
 ### Uccheddu, Damiano, and Ruben van Gaalen. ‘Children’s Strains, Parents’ Pains? How Adult Children’s Union Dissolution Influences Older Parents’ Health’. *Journal of Family Research* 34, no. 2 (14 September 2022): 757–81. https://doi.org/10.20377/jfr-774. 
 
 
