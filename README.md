@@ -35,7 +35,7 @@ The Survey of Health, Ageing and Retirement in Europe (SHARE) data are distribut
 
 - The figures will be showed in the folder "[...]\Replication Material\Data Analysis\Output folder\Figures"
 
-## Codebooks and questionnaires: 
+# Codebooks and questionnaires: 
 ### SHARE
 - Original questionnaires can be found at http://www.share-project.org/data-documentation/questionnaires.html. 
 - Original codebooks can be found at https://www.share-datadocutool.org 
@@ -44,7 +44,7 @@ The Survey of Health, Ageing and Retirement in Europe (SHARE) data are distribut
 - Original codebooks can be found at https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen/catalogus-microdata 
 
 
-## Data & Sample
+# Data & Sample
 This paper uses data from two sources: the Survey of Health, Ageing and Retirement in Europe (SHARE) and the System of Social-statistical Datasets (SSD). 
 
 1)	Survey of Health, Ageing and Retirement in Europe (SHARE) - Version: SHARE Release 6.1.0. 
@@ -55,17 +55,15 @@ This paper uses data from two sources: the Survey of Health, Ageing and Retireme
     https://doi.org/10.6103/SHARE.w4.610, 
     https://doi.org/10.6103/SHARE.w5.610). 
 
-    SHARE data can be retrieved from https://share-project.centerdata.nl/sharedatadissemination/users/login (on 22 Oct. 21)
+    SHARE data can be retrieved from https://share-project.centerdata.nl/sharedatadissemination/users/login
 
 
-2)	System of Social-statistical Datasets (SSD) - Bakker, Bart F. M., Johan van Rooijen, and Leo van Toor. “The System of Social Statistical Datasets of Statistics Netherlands: An Integral Approach to the Production of Register-Based Social Statistics.” Statistical Journal of the IAOS 30, no. 4 (January 1, 2014): 411–24. https://doi.org/10.3233/SJI-140803.
+2)	System of Social-statistical Datasets (SSD) - Bakker, Bart F. M., Johan van Rooijen, and Leo van Toor. “The System of Social Statistical Datasets of Statistics Netherlands: An Integral Approach to the Production of Register-Based Social Statistics.” Statistical Journal of the IAOS 30, no. 4 (2014): 411–24. https://doi.org/10.3233/SJI-140803.
 
     Version: 8-1-2020. Please consult Stelsel van Sociaal-statistische Bestanden (SSB) (https://www.cbs.nl/)
-    SSD data can be retrieved via the following link: Microdata: Conducting your own research (https://www.cbs.nl/). 
+    SSD data can be retrieved via the following link: [Microdata: Conducting your own research](https://www.cbs.nl/en-gb/onze-diensten/customised-services-microdata/microdata-conducting-your-own-research). 
 
-    The SSD microdata was analysed via a secure internet connection (Remote Access), after receiving authorization from Statistics Netherlands (CBS). The attached document “GAP_ScheidenNIDI.docm” includes the form that has been filled in to access the data. 
-
-    More details regarding CBS data access can be found at the following web address: https://www.cbs.nl/en-gb/onze-diensten/customised-services-microdata/microdata-conducting-your-own-research. 
+    The SSD microdata was analysed via a secure internet connection (Remote Access), after receiving authorization from Statistics Netherlands (CBS). More details regarding CBS data access can be found at the following web address: https://www.cbs.nl/en-gb/onze-diensten/customised-services-microdata/microdata-conducting-your-own-research. 
 
     For further information: microdata@cbs.nl.
 
